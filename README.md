@@ -1,6 +1,5 @@
 <h1>Dexs Invest</h1>
 </br>
-</br>
 <h2>Demo Link:</h2>
 
 Live: https://dexsinvest.netlify.app/
