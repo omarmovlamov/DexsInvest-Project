@@ -1,0 +1,91 @@
+.briefInfo-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 68.4px;
+  padding-right: 22.8px;
+  padding-bottom: 68.4px;
+  padding-left: 22.8px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+i {
+  font-size: 32px;
+  color: rgb(59, 0, 255);
+}
+.fa-user-check {
+  font-size: 30px;
+}
+.briefInfo-left {
+  text-align: left;
+  width: 100%;
+}
+.briefInfo-left div {
+  padding: 1vw;
+}
+.briefInfo-left h5 {
+  width: 100%;
+  line-height: 1.5;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 1vw;
+}
+.briefInfo-left p {
+  line-height: 1.5;
+  font-size: 1.125rem;
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.briefInfo-left p:nth-child(1) {
+  margin-bottom: 1.5em;
+}
+.briefInfo-right {
+  width: 100%;
+}
+.briefInfo-item {
+  display: flex;
+}
+.briefInfo-text {
+  display: flex;
+  flex-direction: column;
+}
+.briefInfo-icon {
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.briefInfo-text {
+  text-align: left;
+  padding: 1vw;
+}
+.briefInfo-text h3 {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.briefInfo-text p {
+  color: rgba(70, 70, 70, 1);
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+@media (max-width: 900px) {
+  .briefInfo-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .briefInfo-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

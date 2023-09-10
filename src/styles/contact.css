@@ -1,0 +1,66 @@
+.t-left p {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  text-align: left;
+  font-family: "Source Sans 3", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+}
+.form {
+  width: 70%;
+  background-color: #f4f4f4;
+  padding-top: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+}
+.send-button {
+  display: flex;
+  justify-content: center;
+}
+.send-button button {
+  background-color: #2f00cc;
+  width: 150px;
+  border-radius: 20px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  margin: 10px 0;
+  height: 40px;
+}
+.contact-form {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form label {
+  font-weight: 400;
+  padding-top: 5px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.2rem;
+}
+.contact-form input {
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid black;
+  height: 30px;
+  padding-left: 10px;
+}
+textarea {
+  padding: 10px 0 0 10px;
+  resize: none;
+}
+@media (max-width: 900px) {
+  .form {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding-top: 1vw;
+    padding-right: 10vw;
+    padding-bottom: 1vw;
+    padding-left: 10vw;
+  }
+}

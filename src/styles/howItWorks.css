@@ -1,0 +1,278 @@
+.hiw-header {
+  padding-top: 8vw;
+  padding-right: 2vw;
+  padding-bottom: 8vw;
+  padding-left: 2vw;
+}
+.hiw-header h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding-top: 11.4px;
+  padding-right: 11.4px;
+  padding-bottom: 11.4px;
+  padding-left: 11.4px;
+}
+.hiw-header-items {
+  display: flex;
+  justify-content: space-around;
+}
+.hiw-col {
+  text-align: center;
+  padding-top: 22.8px;
+  padding-right: 22.8px;
+  padding-bottom: 22.8px;
+  padding-left: 22.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hiw-col img {
+  padding: 1vw;
+}
+.hiw-col h5 {
+  font-size: 1.5rem;
+  line-height: 1.125;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding: 1vw;
+}
+.hiw-col p {
+  padding: 1vw;
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.hiw-themes {
+  background-color: #f4f4f4;
+  padding-top: 5vw;
+  padding-right: 3vw;
+  padding-bottom: 5vw;
+  padding-left: 3vw;
+}
+.hiw-themes h2 {
+  font-size: 4.5rem;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 1.25;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding-bottom: 34.2px;
+}
+.themes-items {
+  display: flex;
+  justify-content: space-between;
+}
+.themes-item {
+  width: 32%;
+  padding-top: 22.8px;
+  padding-right: 22.8px;
+  padding-bottom: 114px;
+  padding-left: 22.8px;
+}
+.themes-items h3 {
+  font-size: 2rem;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding: 1vw;
+}
+.themes-items p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+  line-height: 1.25;
+  text-align: left;
+  padding: 1vw;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.telecom {
+  background-color: rgba(60, 119, 104, 1);
+  border-color: rgba(60, 119, 104, 1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(https://lh3.googleusercontent.com/OH4YJyk6X4OlciTZtVGas7U5Zq4bhs_euyhibOgeC_QUGykTuAI3t0VVnpq46z846QLYgR8Zra5HAsXi0nRy=h398);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.home-garden {
+  background-color: rgba(119, 60, 65, 1);
+  border-color: rgba(119, 60, 65, 1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(https://lh3.googleusercontent.com/9qRUsMnmfSFQS623i0GiMr538CNkKhE8im_XM1nnVFeGCA-6O6QqG01ku4vM9QfWXttarl2fze2yDbhZ_BAl7g=h398);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.wearables {
+  background-color: rgba(60, 85, 119, 1);
+  border-color: rgba(60, 85, 119, 1);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(https://lh3.googleusercontent.com/tgGKbZs9YYyu5vMXz4ZF1ZYjp6AO6plm0YqVt4pSVeZiRAhJLuKdWMzMI_SeKs6GzSiMp7yBKX4jNwnxY5-jSiI=h398);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.themes-button button {
+  width: 250px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 20px 25px;
+  color: #fff;
+  text-align: center;
+  background-color: #3e03ff;
+  border: none;
+  border-radius: 50px;
+}
+.themes-button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faqs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4vw;
+  padding-right: 1vw;
+  padding-bottom: 4vw;
+  padding-left: 1vw;
+}
+.faqs-left {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.faqs-left div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+.faqs-left div i {
+  font-size: 62px;
+  padding: 1vw;
+}
+.faqs-left div h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.25;
+  font-size: 4rem;
+  text-align: left;
+  padding: 1vw;
+}
+.faqs-right {
+  width: 60%;
+  text-align: left;
+}
+.faqs-right h3 {
+  padding: 1vw;
+  font-size: 1.5rem;
+  line-height: 1.125;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.faqs-right p {
+  padding: 1vw;
+  font-size: 1.25rem;
+  line-height: 1.375;
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.hiw-topFooter {
+  display: flex;
+}
+.hiw-topFooter h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.25;
+  font-size: 4rem;
+  text-align: left;
+}
+.hiw-topFooter button {
+  border-color: rgb(33, 196, 174);
+  background: rgb(33, 196, 174);
+  color: rgb(0, 0, 0);
+  -webkit-align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-style: solid;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  padding: 20px 32px;
+  font-family: "Source Sans 3", sans-serif;
+  border-radius: 10000px;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+@media (max-width: 770px) {
+  .hiw-header-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .themes-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .themes-item {
+    width: 100%;
+    padding-top: 22.8px;
+    padding-right: 22.8px;
+    padding-bottom: 114px;
+    padding-left: 22.8px;
+  }
+  .faqs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .faqs-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .faqs-left div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 360px) {
+  .hiw-header h1 {
+    font-size: 3rem;
+  }
+  .hiw-themes h2 {
+    font-size: 3rem;
+  }
+  .hiw-topFooter h2 {
+    font-size: 2.5rem;
+  }
+}

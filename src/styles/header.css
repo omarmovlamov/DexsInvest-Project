@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img {
+  width: 150px;
+}
+.links a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.links a:hover {
+  color: #2f00cc;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #2f00cc;
+}
+
+.sign-up button {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #fff;
+  width: 80px;
+  background-color: #2f00cc;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.burger {
+  display: none;
+}
+.fa-x {
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+}
+.bar-links {
+  display: flex;
+  flex-direction: column;
+}
+.bar-links a {
+  padding: 5px 20px;
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.bar-links a:hover {
+  color: #2f00cc;
+  padding-left: 5px;
+  border-left: 2px solid #2f00cc;
+}
+.MuiPaper-root {
+  width: 80%;
+}
+.sign-box {
+  color: #fff;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  .links {
+    display: none;
+  }
+  .sign-up button {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
