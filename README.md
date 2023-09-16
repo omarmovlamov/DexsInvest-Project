@@ -1,8 +1,7 @@
 <h1>Dexs Invest</h1>
 </br>
-<h2>Demo Link:</h2>
-
-Live: https://dexsinvest.netlify.app/
+<h2>Demo Link: https://dexsinvest.netlify.app/</h2>
+ 
 
 If you want to explore my project or contribute, please visit the GitHub repository.
 </br>
